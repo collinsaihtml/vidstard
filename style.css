@@ -1,0 +1,213 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background: #161e28;
+}
+
+nav{
+    align-items: center;
+    -webkit-backdrop-filter: blur(12.5px);
+    backdrop-filter: blur(12.5px);
+    background-color: rgba(0,0,0,.5);
+    display: flex;
+    justify-content: space-between;
+    left: 0;
+    z-index: 1000;
+    padding-left: 24px;
+    padding-right: 24px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    height: 17%;
+    bottom: 580px;
+    background: black;
+}
+
+keygen
+
+nav > svg{
+    position: relative;
+    top: 40px;
+    width: 20px;
+    height: 30px;
+    padding-left: 10%;
+}
+
+nav a{
+    text-decoration: none;
+    color: #fff;
+    padding-left: 50px;
+    top: 10px;
+    position: relative;
+}
+
+.main img{
+    top: 90px;
+    position: relative;
+    width: 1340px;
+    height: 700px;
+}
+
+.down{
+    position: relative;
+    top: 700px;
+    padding-left: 50px;
+}
+
+.down img{
+    position: relative;
+    padding-left: 50px;
+    border-radius: 30px;
+}
+
+.down p{
+    position: absolute;
+    left: 130px;
+    bottom: 250px;
+    color: #fff;
+}
+
+.magic{
+    position: relative;
+    top: 100px;
+}
+
+.magic h1{
+    position: absolute;
+    left: 90px;
+    bottom: 330px;
+    font-size: 40px;
+    color: #fff;
+}
+
+.magic img{
+    border-radius: 30px;
+    height: 200px;
+    width: 20%;
+    position: relative;
+    padding-bottom: 120px;
+    top: 400px;
+    bottom: 800px;
+    padding-left: 120px;
+}
+
+.package h1{
+    position: absolute;
+    left: 120px;
+    font-size: 30px;
+    color: #fff;
+    top: 1999px;
+}
+
+.package p{
+    position: absolute;
+    top: 2100px;
+    color: grey;
+    left: 120px;
+}
+
+.package button{
+    position: relative;
+    top: 1000px;
+    width: 17%;
+    font-size: 20px;
+    height: 60px;
+    border-radius: 30px;
+    left: 120px;
+    color: #fff;
+    background: transparent;
+}
+
+.down h1{
+    position: absolute;
+    left: 130px;
+    bottom: 300px;
+    color: #fff;
+}
+
+.package button:hover{
+    background: blue;
+}
+
+.middle{
+    position: relative;
+    top: 300px;
+}
+
+.middle img{
+    padding-left: 100px;
+}
+
+.down button{
+    left: 70px;
+    position: relative;
+    width: 220px;
+    height: 120px;
+    border-radius: 20px;
+    background: #5666;
+}
+
+.down a{
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    top: 30px;
+}
+
+#colorbox {
+    outline: 0;
+  }
+  #colorbox, #cboxContent, #cboxLoadedContent {
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+  }
+  #colorbox {
+    z-index: 9999;
+  }
+  #colorbox, #cboxOverlay, #cboxWrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9989;
+    overflow: hidden;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+  *, ::before, ::after {
+    box-sizing: border-box;
+  }
+
+  #root {
+    color: #fff;
+    font-family: Poppins,sans-serif;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 10000;
+  }
+
+  #root *, #root ::after, #root ::before {
+    box-sizing: content-box !important;
+  }
+  .spinner {
+    animation: spin .8s linear infinite;
+    border: 2px solid rgba(38, 43, 46, 0.4);
+      border-top-color: rgba(162, 182, 191, 0.4);
+      border-right-width: 2px;
+      border-bottom-color: rgba(162, 182, 191, 0.4);
+      border-left-color: rgba(162, 182, 191, 0.4);
+    border-bottom-color: #0095da !important;
+    border-left-color: #0095da !important;
+    border-radius: 50%;
+    border-right-width: 1px;
+    border-top-color: #0095da !important;
+    display: block;
+    height: 84px;
+    margin: 16px auto;
+    width: 84px;
+  }
